@@ -1,10 +1,10 @@
 import Lottie from "lottie-react";
-import education from "../assets/lottie/education.json";
-import IIIT_KOTA from "../assets/IIIT_Kota.png";
+import education from "../assets/lottie/Education.json";
+import IET_Lucknow from "../assets/iet.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
+ 
 const Education = () => {
   useEffect(() => {
     AOS.init();
@@ -26,12 +26,12 @@ const Education = () => {
           <div className="max-w-[520px] mt-[52px] p-7 max-sm:p-3">
             <div className="flex gap-5">
               <img
-                src={IIIT_KOTA}
+                src={IET_Lucknow}
                 alt="IIIT KOTA"
                 className="w-[90px] h-[90px]"
               />
               <h1 className="bg-clip-text text-transparent bg-gradient-to-r max-sm:text-[17px] from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100 font-semibold text-2xl w-[300px] h-[100px] tracking-wider ">
-                Indian Institue Of Information Technology Kota
+                Institute of Engineering and Technology, Lucknow
               </h1>
             </div>
 
@@ -44,7 +44,7 @@ const Education = () => {
               </p>
 
               <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
-                electronics and communication engineering
+                Computer Science and Engineering
               </p>
             </div>
           </div>

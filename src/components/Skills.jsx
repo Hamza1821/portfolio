@@ -17,6 +17,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "./Img_prop";
+import java from '../assets/java.png'
+import spring from '../assets/spring.png'
+import node from '../assets/node.png'
+import sql from '../assets/mysql.png'
+import docker from '../assets/docker.png'
+import kubernates from '../assets/kubernates.png'
+
 
 const Skills = () => {
   useEffect(() => {
@@ -36,13 +43,13 @@ const Skills = () => {
           <Image img={CSS}></Image>
           <Image img={Javascript}></Image>
           <Image img={react}></Image>
-          <Image img={TailwindCSS}></Image>
-          <Image img={Vue}></Image>
-          <Image img={CPP}></Image>
-          <Image img={C}></Image>
+          <Image img={node}></Image>
+          <Image img={sql}></Image>
+          <Image img={spring}></Image>
+          <Image img={java}></Image>
           <Image img={Python}></Image>
-          <Image img={Vite}></Image>
-          <Image img={Git}></Image>
+          <Image img={docker}></Image>
+          <Image img={kubernates}></Image>
           <Image img={Github}></Image>
         </div>
       </section>

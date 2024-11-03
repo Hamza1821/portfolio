@@ -1,7 +1,30 @@
 import Lottie from "lottie-react";
+import {useEffect} from 'react'
 import computer from "../assets/lottie/computer.json";
+import gsap from 'gsap';
+import { tl } from './gsap.js';  
 
 const About = () => {
+  useEffect(() => {
+    let ctx = gsap.context(() => {
+      tl.from('.INTRO', {
+        scale:0,
+        opacity: 0,
+        delay:0.5,
+        duration: 0.5
+      })
+      gsap.from('.svg',{
+        x:120,
+        opacity:0,
+        duration:0.5
+      })
+     
+    });
+
+    tl.play();  // Play the timeline
+    return () => ctx.revert();
+  }, []);
+  
   return (
     <>
       <section
@@ -14,7 +37,7 @@ const About = () => {
               Hi, there! <br />I am
             </h3>
             <span className="bg-clip-text text-transparent bg-gradient-to-r  from-blue-600 to-cyan-600 dark:from-cyan-500 dark:to-slate-200">
-              Dhairya Majmudar
+              Hamza Mubin
               
             </span>
 
@@ -27,7 +50,7 @@ const About = () => {
           <Lottie
             animationData={computer}
             loop={true}
-            className="max-w-[650px] shadow-xl rounded-xl border border-[#00040f]"
+            className="max-w-[650px] svg shadow-xl rounded-xl border border-[#00040f]"
           />
         </div>
       </section>
