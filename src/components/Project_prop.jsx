@@ -29,7 +29,9 @@ const Project_prop = (props) => {
                 {props.javascript}
                 {props.tailwindcss}
                 {props.react}
+                {props.node}
                 {props.vite}
+                {props.mysql}
               </div>
             </div>
           </div>

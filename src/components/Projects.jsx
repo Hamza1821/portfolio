@@ -16,7 +16,9 @@ import {
   SiTailwindcss,
   SiVite,
   SiHtml5,
+  SiNodedotjs,
   SiCss3,
+  SiMysql,
   SiJavascript,
 } from "react-icons/si";
 
@@ -67,67 +69,39 @@ const Projects = () => {
             }
           />
           <Project_prop
-            title="Stark Rockets"
-            para="Stark is a fantasy and futuristic website which offers the ride of space-ship to the space"
+            title="HamGram"
+            para="HamGram is a Social media website"
             img={Rocket}
-            link="https://stark-rockets.onrender.com/"
-            github_link="https://github.com/DhairyaMajmudar/STARK"
-            html5={
-              <Tooltip title="HTML5" arrow>
+            link=""
+            github_link="h"
+            react={
+              <Tooltip title="React" arrow>
                 <IconButton>
-                  <SiHtml5 className="dark:text-slate-200 text-black" />
+                  <SiReact className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
-            javascript={
+            node={
               <Tooltip title="JavaScript" arrow>
                 <IconButton>
-                  <SiJavascript className="dark:text-slate-200 text-black" />
+                  <SiNodedotjs className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
-            tailwindcss={
+            mysql={
               <Tooltip title="TailWind CSS" arrow>
                 <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                  <SiMysql className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
           />
           <Project_prop
-            title="Thrive"
-            para="Thrive is a website which primarily focuses on improving life-style and well-being"
+            title="spaceHm"
+            para="SpaceHm shows Astroomy Picture of the Day for space lovers"
             img={WellBeing}
-            link="https://dhairyamajmudar.github.io/Thrive/"
-            github_link="https://github.com/DhairyaMajmudar/Thrive"
-            html5={
-              <Tooltip title="HTML 5" arrow>
-                <IconButton>
-                  <SiHtml5 className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            javascript={
-              <Tooltip title="JavaScript" arrow>
-                <IconButton>
-                  <SiJavascript className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            css3={
-              <Tooltip title="CSS 3" arrow>
-                <IconButton>
-                  <SiCss3 className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-          />
-          <Project_prop
-            title="GPT-4 Website"
-            para="GPT 4 is a website which focuses on introduction of AI to the world "
-            img={GPT4}
-            link="https://dhairya-majmudar-gpt-4.netlify.app/"
-            github_link="https://github.com/DhairyaMajmudar/GPT-4-Website"
+            link="https://spacehm.netlify.app/"
+            github_link="https://github.com/Hamza1821/spacehm"
             react={
               <Tooltip title="React" arrow>
                 <IconButton>
@@ -151,15 +125,43 @@ const Projects = () => {
             }
           />
           <Project_prop
-            title="Stone-Paper-Scissors Game"
-            para="A Stone Paper Scissors game created  to remember childhood memories"
+            title="PlanetsPedia"
+            para="A Webpage that gives information of our solar system"
+            img={GPT4}
+            link="https://planetspedia.netlify.app/"
+            github_link="https://Hamza1821/PlanetHm"
+            react={
+              <Tooltip title="React" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            javascript={
+              <Tooltip title="JavaScript" arrow>
+                <IconButton>
+                  <SiJavascript className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            css3={
+              <Tooltip title="CSS 3" arrow>
+                <IconButton>
+                  <SiCss3 className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
+          <Project_prop
+            title="Sportify"
+            para=" A wepage desig to deliver latest Sports news"
             img={Game}
             link=""
-            github_link="https://github.com/DhairyaMajmudar/Stone-Paper-Scissors"
-            html5={
-              <Tooltip title="HTML 5" arrow>
+            github_link="https://github.com/Hamza1821"
+            node={
+              <Tooltip title="Node.js" arrow>
                 <IconButton>
-                  <SiHtml5 className="dark:text-slate-200 text-black" />
+                  <SiNodedotjs className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
