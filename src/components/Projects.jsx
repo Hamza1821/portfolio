@@ -73,7 +73,7 @@ const Projects = () => {
             para="HamGram is a Social media website"
             img={Rocket}
             link=""
-            github_link="h"
+            github_link="https://github.com/Hamza1821/HamGramProject"
             react={
               <Tooltip title="React" arrow>
                 <IconButton>
@@ -157,11 +157,42 @@ const Projects = () => {
             para=" A wepage desig to deliver latest Sports news"
             img={Game}
             link=""
-            github_link="https://github.com/Hamza1821"
+            github_link="https://github.com/Hamza1821/webscrapping"
             node={
               <Tooltip title="Node.js" arrow>
                 <IconButton>
                   <SiNodedotjs className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            javascript={
+              <Tooltip title="JavaScript" arrow>
+                <IconButton>
+                  <SiJavascript className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            css3={
+              <Tooltip title="CSS 3" arrow>
+                <IconButton>
+                  <SiCss3 className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
+
+
+           
+          <Project_prop
+            title="Spotify-clone"
+            para=" A wepage desig to deliver latest Sports news"
+            img={Game}
+            link="https://spotifyhm.netlify.app/"
+            github_link=""
+            react={
+              <Tooltip title="React" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
