@@ -10,7 +10,10 @@ import {
   Javascript,
   CPP,
   C,
-  Vue
+  Vue,
+  aws,
+  jest,
+  scikit,
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -51,6 +54,10 @@ const Skills = () => {
           <Image img={docker}></Image>
           <Image img={kubernates}></Image>
           <Image img={Github}></Image>
+          <Image img={aws}></Image>
+          <Image img={jest}></Image>
+          <Image img={scikit}></Image>
+          
         </div>
       </section>
     </>

@@ -40,6 +40,35 @@ const Projects = () => {
           className="PROJECTS mt-16 grid gap-10 grid-cols-2 max-sm:grid-cols-1"
           data-aos="zoom-out-down"
         >
+
+<Project_prop
+            title="HamVerse"
+            para="A 2d Meatverse application"
+            img={Portfolio}
+            link=""
+            github_link="https://github.com/Hamza1821/HamVerse"
+            react={
+              <Tooltip title="React" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            tailwindcss={
+              <Tooltip title="TailWind CSS" arrow>
+                <IconButton>
+                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            vite={
+              <Tooltip title="Node.js" arrow>
+                <IconButton>
+                  <SiVite className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
           <Project_prop
             title="Portfolio Website"
             para="Personal portfolio website created with react and Tailwind CSS"

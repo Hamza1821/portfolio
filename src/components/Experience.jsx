@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import IIIT_KOTA from "../assets/IIIT_Kota.png";
+import matrix from "../assets/matrix_innovation_logo.jpg";
 import hacktoberfest from '../assets/hf2.webp'
 import jp from '../assets/jp.avif'
 
@@ -40,7 +41,13 @@ const Experience = () => {
             className="EXPERIENCE mt-16 grid gap-20 max-sm:gap-10 max-sm:grid-cols-1 grid-cols-3"
             data-aos="zoom-in-up"
           >
-           
+           <Exp_prop
+              img={matrix}
+              title="Matrix Innovations"
+              subtitle="Backend Developer Intern"
+              date="Dec-2024 - present"
+              para="- Contributing to backend development of Amorr and IRLSocial. Gaining experience in deployment, microservice architecture, Jest testing, and security testing to enhance system performance and security "
+            />
             <Exp_prop
               img={GSSOC}
               title="GSSoC'24-Extended"

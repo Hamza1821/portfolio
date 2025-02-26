@@ -82,7 +82,7 @@ const Contact = () => {
         </div>
 
         <p className="text-[#00040f] dark:text-slate-300 mx-2 text-center capitalize tracking-widest max-sm:text-sm p-2">
-          made with 💙 by Dhairya Majmudar & the Open Source Community
+          made with Passion by Hamza Mubin
         </p>
       </section>
     </>

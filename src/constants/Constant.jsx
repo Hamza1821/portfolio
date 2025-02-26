@@ -25,6 +25,9 @@ import Portfolio from "../assets/portfolio.jpg";
 import Rocket from "../assets/Rocket.jpg";
 import Game from "../assets/Stone.jpg";
 import WellBeing from "../assets/well-being.jpg";
+import aws from "../assets/aws.png";
+import jest from "../assets/jest.png";
+import scikit from "../assets/scikit.png";
 
 export {
   C,
@@ -52,4 +55,7 @@ export {
   GDSC,
   KDE,
   Oppia,
+  aws,
+  jest,
+  scikit
 };
