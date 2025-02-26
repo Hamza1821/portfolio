@@ -100,7 +100,7 @@ const Projects = () => {
           <Project_prop
             title="HamGram"
             para="HamGram is a Social media website"
-            img={Rocket}
+            img={WellBeing}
             link=""
             github_link="https://github.com/Hamza1821/HamGramProject"
             react={
@@ -127,8 +127,8 @@ const Projects = () => {
           />
           <Project_prop
             title="spaceHm"
-            para="SpaceHm shows Astroomy Picture of the Day for space lovers"
-            img={WellBeing}
+            para="SpaceHm shows Astronomy Picture of the Day for space lovers"
+            img={Rocket}
             link="https://spacehm.netlify.app/"
             github_link="https://github.com/Hamza1821/spacehm"
             react={
